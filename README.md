@@ -210,7 +210,7 @@ def core1():
             return [
             {
                 device: "hivesense", // device serial number
-                field: "TILT", //change the field name
+                field: "TILT", // field ID name
                 value: value,
             }
         ];
