@@ -8,7 +8,7 @@ import time
 from mqtt_as import MQTTClient, config
 
 # ======== CONFIG ========
-wifi_ssid = 'iotlab'
+wifi_ssid = 'iotlab'  #Change to your own wifi
 wifi_password = 'modermodemet'
 
 config['server'] = 'test.mosquitto.org'
@@ -18,10 +18,6 @@ config['password'] = ''
 config['ssid'] = wifi_ssid
 config['wifi_pw'] = wifi_password
 config['queue_len'] = 10
-
-# MQTT topics
-topic_data = 'honeybox/data'
-topic_alert = 'honeybox/alert'
 
 # Thresholds
 TEMP_OK_MIN = 18
@@ -196,4 +192,5 @@ async def main():
     await mqtt_publish()
 
 asyncio.run(main())
+
 
