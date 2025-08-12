@@ -234,7 +234,7 @@ Data is stored in Datacake’s database and can be exported for analysis. Trigge
 
 ## Finalizing the Design
 
-Since I have the “Honey Box” in the basement, I will use a cable with a 25W adapter connected directly to the electrical outlet, glued to the bottom of the lid. I don’t have a 3D printer, so I will skip making a custom case; otherwise, the project would ideally need a case for safety.
+Since I have the “Honey Box” in the basement, I will use a cable with a 25W adapter (normal phone adapter) connected directly to the electrical outlet, glued to the bottom of the lid. I don’t have a 3D printer, so I will skip making a custom case; otherwise, the project would ideally need a case for safety.
 ![ Final Design](img/final_design.jpg)
 
 ### Final thoughts:
