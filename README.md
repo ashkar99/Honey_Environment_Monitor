@@ -11,7 +11,7 @@ HoneyBox is an IoT system that monitors the environment of a honey storage box u
 
 The system is based on the Raspberry Pi Pico W, programmed in MicroPython, and connects to Wi-Fi for real-time cloud updates.  
 
-**Estimated time to build:** Approximately 3–4 hours, including setup, wiring, and testing, if you follow the tutorial step-by-step.
+**Estimated time to build:** Approximately 2–3 hours, including setup, wiring, and testing, if you follow the tutorial step-by-step.
 
 ---
 
