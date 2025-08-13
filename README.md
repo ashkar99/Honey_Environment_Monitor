@@ -191,7 +191,7 @@ def core1():
   - `honeybox/lid_open_secs`
   - `honeybox/status`
 - **Publish rate:** every 5 seconds
-- **Reason for MQTT:** Lightweight, reliable for IoT, works with Datacake’s MQTT configration
+- **Reason for MQTT:** Lightweight, reliable for IoT, works with Datacake’s MQTT configration.
 
 ---
 
