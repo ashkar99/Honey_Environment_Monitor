@@ -7,7 +7,7 @@ import ujson
 import time
 from mqtt_as import MQTTClient, config
 
-# ======== CONFIG ========
+# ======== CONFIG ======
 wifi_ssid = 'iotlab'  #Change to your own wifi
 wifi_password = 'modermodemet'
 
@@ -179,7 +179,7 @@ async def mqtt_publish():
             "status": status_val
         })
 
-        await asyncio.sleep(5)  # publish every 5s
+        await asyncio.sleep(5)  # publish every 5 sec
 
 
 # ======== MAIN ========
@@ -192,5 +192,6 @@ async def main():
     await mqtt_publish()
 
 asyncio.run(main())
+
 
 
